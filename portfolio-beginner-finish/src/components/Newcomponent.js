@@ -6,7 +6,7 @@ import Typical from 'react-typical';
 
 import content from '../content';
 
-export default function Header() {
+export default function Newcomponent() {
   const [animated, setAnimated] = useState(false);
   useEffect(() => {
     setAnimated(true);
@@ -27,7 +27,7 @@ export default function Header() {
             placeholderSrc={process.env.PUBLIC_URL + '/logo512.png'}
           />
         </div>
-        <div className="text-white font-dosis text-center md:text-center">
+        <div className="text-white font-dosis text-center md:text-left">
           <h2
             className={`${
               animated ? '' : 'translate-y-10 opacity-0'

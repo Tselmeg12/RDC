@@ -4,6 +4,7 @@ export default {
     links: [
       { text: 'Work', to: 'mywork' },
       { text: 'Contact', to: 'mycontact' },
+      {text: 'Sonin' ,to: 'mycont'},
     ],
   },
   header: {
